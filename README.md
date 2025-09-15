@@ -1,6 +1,6 @@
 # Master Thesis: Poverty Measurement and Targeting (PMT) Model
 
-This repository contains the implementation of a two-stage Poverty Measurement and Targeting (PMT) model for the Philippines, focusing on the National Capital Region (NCR). The project combines data from multiple sources including the Family Income and Expenditure Survey (FIES), Labor Force Survey (LFS), Census data, and Demographic and Health Survey (DHS) to develop a comprehensive poverty targeting system.
+This repository contains a reconstructed, research-only implementation of a two-stage Poverty Measurement and Targeting (PMT) workflow focused on the National Capital Region (NCR). It does not reproduce or represent any official DSWD/Listahanan model. Instead, it rebuilds the pipeline end-to-end from publicly available microdata to analyze coverage and classification performance in an urban context. The project combines data from multiple sources including the Family Income and Expenditure Survey (FIES), Labor Force Survey (LFS), Census data, and Demographic and Health Survey (DHS) to develop a comprehensive poverty targeting system.
 
 ## Overview
 
@@ -124,7 +124,7 @@ The project uses the following key dependencies:
 
 ### Running the Analysis
 
-1. **Prepare the data** by running the data processing notebooks in order:
+1. **Launch jupyter lab**:
    ```bash
    # Start Jupyter Lab
    uv run jupyter lab
